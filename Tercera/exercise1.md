@@ -84,14 +84,8 @@ Consultas
    select marca, municipio, placa from automovil where (select substr(placa, 6)) < 5;
    
    #### Salida
-+--------+------------+---------+
-| marca  | municipio  | placa   |
-+--------+------------+---------+
-| Nissan | Pachuca    | HJC123E |
-| Honda  | Tulancingo | HJC124E |
-| Honda  | Tulancingo | HJC133E |
-| Toyota | Actopan    | HJC133E |
-| Nissan | Pachuca    | HJC223E |
-| Honda  | Tulancingo | HJC223E |
-| Toyota | Actopan    | HJC223E |
-+--------+------------+---------+
+Marca,Municipio,Placa
+Nissan,Pachuca,HJC123E
+Honda,Tulancingo,HJC124E
+Honda,Tulancingo,HJC133E
+Toyota,Actopan,HJC133E
